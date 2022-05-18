@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "nz_public_holidays_gem"
+Dir[File.join(__dir__, 'nz_public_holidays_gem/services', '*.rb')].each { |file| require file }
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
