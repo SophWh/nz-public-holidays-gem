@@ -20,7 +20,7 @@ class EasterSunday < NzPublicHolidaysGem::Services::PublicHoliday
     month = (h + l - 7 * m + 114) / 31
     day = ((h + l - 7 * m + 114) % 31) + 1
 
-    date = Time.zone.local(year, month, day)
+    date = DateTime.new(year, month, day)
     { actual_at: date, observed_at: date }
   end
 end
