@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/nz/public/holidays/gem/version"
+require_relative "lib/nz_public_holidays_gem/version"
 
 Gem::Specification.new do |spec|
   spec.name = "nz-public-holidays-gem"
-  spec.version = Nz::Public::Holidays::Gem::VERSION
+  spec.version = NzPublicHolidaysGem::VERSION
   spec.authors = ["SophWh", "trevh-dc"]
   spec.email = ["sophiewhiteheadnz@gmail.com"]
 
@@ -33,6 +33,7 @@ Gem::Specification.new do |spec|
 
   # TODO: Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_development_dependency "rspec", "~> 3.0"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html

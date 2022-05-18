@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe Nz::Public::Holidays::Gem do
+RSpec.describe NzPublicHolidaysGem do
   it "has a version number" do
-    expect(Nz::Public::Holidays::Gem::VERSION).not_to be nil
+    expect(NzPublicHolidaysGem::VERSION).not_to be nil
   end
 
   it "does something useful" do

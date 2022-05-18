@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "nz/public/holidays/gem"
+require "nz_public_holidays_gem"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
