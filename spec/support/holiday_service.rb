@@ -1,3 +1,5 @@
+require "spec_helper"
+
 RSpec.shared_examples "a holiday service" do |test_data|
   let(:date_format) { "%Y-%m-%d" }
 
