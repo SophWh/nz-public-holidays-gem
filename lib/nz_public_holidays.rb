@@ -1,3 +1,6 @@
+# NOTE: As we re using an inheritance model we need to load these
+#       files in a particular order so we dont break the require
+#       function
 %w[
   version
   public_holiday
