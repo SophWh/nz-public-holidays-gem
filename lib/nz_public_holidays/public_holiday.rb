@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 require 'date'
 
+# PublicHoliday
 class PublicHoliday
   def initialize(year)
     @year = year
@@ -29,9 +32,9 @@ class PublicHoliday
 
   # Calculates closest Monday, before or after current date
   def nearest_monday(date)
-    days_to_past_monday = date.wday == 0 ? 6 : date.wday - 1
+    days_to_past_monday = date.wday.zero? ? 6 : date.wday - 1
     nearest_monday = date - days_to_past_monday
-    nearest_monday += 7 if date.wday > 4 || date.wday == 0
+    nearest_monday += 7 if date.wday > 4 || date.wday.zero?
 
     nearest_monday
   end

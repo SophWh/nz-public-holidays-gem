@@ -1,5 +1,6 @@
-require_relative "./easter_sunday"
+# frozen_string_literal: true
 
+# PublicHoliday
 class SouthlandAnniversary < EasterSunday
   # Observed on Easter Tuesday
   def call

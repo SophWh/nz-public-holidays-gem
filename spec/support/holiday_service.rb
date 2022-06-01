@@ -1,9 +1,11 @@
-require "spec_helper"
+# frozen_string_literal: true
 
-RSpec.shared_examples "a holiday service" do |test_data|
-  let(:date_format) { "%Y-%m-%d" }
+require 'spec_helper'
 
-  context "when calculating holiday dates for" do
+RSpec.shared_examples 'a holiday service' do |test_data|
+  let(:date_format) { '%Y-%m-%d' }
+
+  context 'when calculating holiday dates for' do
     it test_data.klass.name.to_s do
       test_data.known_years.each do |year|
         dates       = test_data.klass.new(year).call

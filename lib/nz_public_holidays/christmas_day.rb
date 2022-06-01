@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# PublicHoliday
 class ChristmasDay < PublicHoliday
   private
 

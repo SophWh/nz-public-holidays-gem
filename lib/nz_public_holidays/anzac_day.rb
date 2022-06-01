@@ -1,5 +1,6 @@
-require_relative "./public_holiday"
+# frozen_string_literal: true
 
+# PublicHoliday
 class AnzacDay < PublicHoliday
   private
 

@@ -1,23 +1,23 @@
 # frozen_string_literal: true
 
-require_relative "lib/nz_public_holidays/version"
+require_relative 'lib/nz_public_holidays/version'
 
 Gem::Specification.new do |spec|
-  spec.name = "nz-public-holidays-gem"
+  spec.name = 'nz-public-holidays-gem'
   spec.version = NzPublicHoliday::Gem::VERSION
-  spec.authors = ["SophWh", "trevh-dc"]
-  spec.email = ["sophiewhiteheadnz@gmail.com"]
+  spec.authors = %w[SophWh trevh-dc]
+  spec.email = ['sophiewhiteheadnz@gmail.com']
 
-  spec.summary = "Gem to calculate New Zealand public holidays"
+  spec.summary = 'Gem to calculate New Zealand public holidays'
   # spec.description = "Write a longer description or delete this line."
-  spec.homepage = "https://github.com/SophWh/nz-public-holidays-gem"
-  spec.license = "MIT" # TODO: Read up on this
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.homepage = 'https://github.com/SophWh/nz-public-holidays-gem'
+  spec.license = 'MIT' # TODO: Read up on this
+  spec.required_ruby_version = '>= 2.6.0'
 
-  spec.metadata["allowed_push_host"] = "Set to your gem server 'https://example.com'" # TODO
+  spec.metadata['allowed_push_host'] = "Set to your gem server 'https://example.com'" # TODO
 
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/SophWh/nz-public-holidays-gem"
+  spec.metadata['homepage_uri'] = spec.homepage
+  spec.metadata['source_code_uri'] = 'https://github.com/SophWh/nz-public-holidays-gem'
   # spec.metadata["changelog_uri"] = "https://example.com"
 
   # Specify which files should be added to the gem when it is released.
@@ -27,13 +27,13 @@ Gem::Specification.new do |spec|
       (f == __FILE__) || f.match(%r{\A(?:(?:test|spec|features)/|\.(?:git|travis|circleci)|appveyor)})
     end
   end
-  spec.bindir = "exe"
+  spec.bindir = 'exe'
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ['lib']
 
   # TODO: Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency 'rspec', '~> 3.0'
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html

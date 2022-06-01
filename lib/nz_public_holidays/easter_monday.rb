@@ -1,5 +1,6 @@
-require_relative "./easter_sunday"
+# frozen_string_literal: true
 
+# PublicHoliday
 class EasterMonday < EasterSunday
   def call
     easter_sunday = super

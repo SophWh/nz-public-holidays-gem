@@ -1,5 +1,6 @@
-require_relative "./labour_day"
+# frozen_string_literal: true
 
+# PublicHoliday
 class HawkesBayAnniversary < LabourDay
   # Observed on Friday before Labour Day
   def call

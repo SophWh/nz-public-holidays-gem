@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# PublicHoliday
 class CanterburyAnniversary < PublicHoliday
   private
 
@@ -20,7 +23,7 @@ class CanterburyAnniversary < PublicHoliday
     # Get weekday on given date and calculate offset to next Friday
     offset = (5 - date.wday) % 7
     next_friday = (date + offset)
-    next_friday += 7 if offset == 0 # If given day is already a Friday, get the next one
+    next_friday += 7 if offset.zero? # If given day is already a Friday, get the next one
 
     next_friday += 7
     next_friday

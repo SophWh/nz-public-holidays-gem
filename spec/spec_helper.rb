@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "byebug"
+require 'byebug'
 
 # NOTE: As we re using an inheritance model we need to load these
 #       files in a particular order so we dont break the require
@@ -40,7 +40,7 @@ require "byebug"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
-  config.example_status_persistence_file_path = ".rspec_status"
+  config.example_status_persistence_file_path = '.rspec_status'
 
   # Disable RSpec exposing methods globally on `Module` and `main`
   config.disable_monkey_patching!

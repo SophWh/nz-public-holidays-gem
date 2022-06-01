@@ -1,8 +1,11 @@
+# frozen_string_literal: true
+
+# PublicHoliday
 class EasterSunday < PublicHoliday
   private
 
   # Implementation of Meeus/Jones/Butcher Gregorian algorithm, to work out Easter Sunday
-  def calculate # rubocop:disable Metrics/AbcSize
+  def calculate # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
     a = year % 19
     b = year / 100
     c = year % 100

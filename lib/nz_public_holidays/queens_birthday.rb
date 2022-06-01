@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# PublicHoliday
 class QueensBirthday < PublicHoliday
   private
 
