@@ -29,4 +29,4 @@
   waitangi_day
   wellington_anniversary
   westland_anniversary
-].each { |file| require "/nz_public_holidays/#{file}.rb" }
+].each { |file| require "nz_public_holidays/#{file}.rb" }
