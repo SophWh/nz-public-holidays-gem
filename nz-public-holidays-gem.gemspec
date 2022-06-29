@@ -4,7 +4,7 @@ require_relative 'lib/nz_public_holidays/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'nz-public-holidays-gem'
-  spec.version = NzPublicHoliday::Gem::VERSION
+  spec.version = NewZealandPublicHoliday::Gem::VERSION
   spec.authors = %w[SophWh trevh-dc]
   spec.email = ['sophiewhiteheadnz@gmail.com']
 

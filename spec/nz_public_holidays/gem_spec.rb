@@ -2,9 +2,9 @@
 
 require 'spec_helper'
 
-RSpec.describe NzPublicHoliday::Gem do
+RSpec.describe NewZealandPublicHoliday::Gem do
   it 'has a version number' do
-    expect(NzPublicHoliday::Gem::VERSION).not_to be nil
+    expect(NewZealandPublicHoliday::Gem::VERSION).not_to be nil
   end
 
   it 'does something useful' do
