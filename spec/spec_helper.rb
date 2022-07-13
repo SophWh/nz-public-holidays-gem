@@ -21,6 +21,7 @@ require 'byebug'
   hawkes_bay_anniversary
   january_second
   marlborough_anniversary
+  matariki
   nelson_anniversary
   new_years_day
   otago_anniversary
