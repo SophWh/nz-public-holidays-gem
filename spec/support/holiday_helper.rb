@@ -8,6 +8,13 @@ module HolidayHelper # rubocop:disable Metrics/ModuleLength
   KNOWN_YEARS    = %w[2022 2023].map(&:to_i)
   KNOWN_HOLIDAYS = [
     {
+      Matariki:
+      {
+        klass: Matariki,
+        known_years: KNOWN_YEARS,
+        actual_dates: %w[2022-06-24 2023-07-14],
+        observed_dates: %w[2022-06-24 2023-07-14]
+      },
       GoodFriday:
       {
         klass: GoodFriday,
