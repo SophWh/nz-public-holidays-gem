@@ -2,7 +2,6 @@
 
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in nz-public-holidays-gem.gemspec
 gemspec
 
 gem 'byebug'
