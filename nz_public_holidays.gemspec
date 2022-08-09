@@ -1,3 +1,9 @@
+# NzPublicHolidays - Ruby gem to calculate the dates of New Zealand public holidays
+# Copyright (C) 2022 SophWh
+# This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+
 # frozen_string_literal: true
 
 require './lib/nz_public_holidays/version'
@@ -11,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'Ruby gem to calculate the dates of New Zealand public holidays'
   spec.description = "Provides a collection of service classes that calculate the actual and observed dates for each New Zealand public holiday."
   spec.homepage = 'https://github.com/SophWh/nz-public-holidays-gem'
-  spec.license = 'MIT'
+  spec.license = 'GPL-3.0-only'
   spec.required_ruby_version = '>= 2.6.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
@@ -33,6 +39,6 @@ Gem::Specification.new do |spec|
   # Dependencies
   spec.add_dependency "rake", "~> 13.0"
   spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'byebug'
+  spec.add_development_dependency 'byebug', '~> 11.1'
   spec.add_development_dependency 'rubocop', '~> 1.21'
 end
