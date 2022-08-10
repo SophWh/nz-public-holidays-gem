@@ -19,7 +19,6 @@ Or install it yourself as:
     $ gem install nz_public_holidays
 
 ## Usage
-
 Initialize the class corresponding to the desired holiday with the target year, and execute #call. DateTime objects representing the actual and observed dates will be calculated and returned.
 
 Examples:
@@ -59,6 +58,24 @@ Available Public Holidays:
 - WellingtonAnniversary
 - WestlandAnniversary
 
+You can also return all public holidays for the specified years using the following:
+```ruby
+FetchHoliday.fetch_holidays(start_year, end_year)
+```
+Data is returned in the following format:
+```
+ [
+    {
+        :holiday_name=>"",
+        :actual_at=><DateTime>,
+        :observed_at=><DateTime>,
+        :holiday_type=>"",
+        :updated_at=><DateTime>,
+        :created_at=><DateTime>
+    },
+  ...
+  ]
+```
 
 ## Development
 
