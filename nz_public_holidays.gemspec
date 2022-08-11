@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.name = 'nz_public_holidays'
   spec.version = NewZealandPublicHoliday::Gem::VERSION
   spec.authors = %w[SophWh trevh-dc]
-  spec.email = ['sophiewhiteheadnz@gmail.com']
+  spec.email = ''
 
   spec.summary = 'Ruby gem to calculate the dates of New Zealand public holidays'
   spec.description = "Provides a collection of service classes that calculate the actual and observed dates for each New Zealand public holiday."
